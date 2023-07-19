@@ -20,7 +20,7 @@ module helloworldfpga(
     reg          led;
 always@(posedge clk) begin
 delay = delay+1;
-if(delay>2000000)
+if(delay>200000)
 begin
 	if(rst)
 		counter = 16'b0000000000000000;
