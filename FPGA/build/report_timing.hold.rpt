@@ -1,0 +1,2266 @@
+#Timing report of worst 72 path(s)
+# Unit scale: 1e-09 seconds
+# Output precision: 3
+
+#Path 1
+Startpoint: rst.inpad[0] (.input clocked by clk)
+Endpoint  : counter_dffe_Q_11.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                          Incr      Path
+---------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                         0.000     0.000
+clock source latency                                                          0.000     0.000
+input external delay                                                          0.000     0.000
+rst.inpad[0] (.input)                                                         0.000     0.000
+$iopadmap$helloworldfpga.rst.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$helloworldfpga.rst.I_DAT[0] (BIDIR_CELL)                           10.153    10.153
+rst_LUT3_I2_12.t_frag.XAB[0] (T_FRAG)                                         5.428    15.581
+rst_LUT3_I2_12.t_frag.XZ[0] (T_FRAG)                                          0.909    16.491
+counter_dffe_Q_11.QD[0] (Q_FRAG)                                              0.000    16.491
+data arrival time                                                                      16.491
+
+clock clk (rise edge)                                                         0.000     0.000
+clock source latency                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                      0.000     0.000
+counter_dffe_Q_11.QCK[0] (Q_FRAG)                                            13.930    13.930
+clock uncertainty                                                             0.000    13.930
+cell hold time                                                                0.571    14.501
+data required time                                                                     14.501
+---------------------------------------------------------------------------------------------
+data required time                                                                    -14.501
+data arrival time                                                                      16.491
+---------------------------------------------------------------------------------------------
+slack (MET)                                                                             1.990
+
+
+#Path 2
+Startpoint: rst.inpad[0] (.input clocked by clk)
+Endpoint  : counter_dffe_Q_10.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                          Incr      Path
+---------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                         0.000     0.000
+clock source latency                                                          0.000     0.000
+input external delay                                                          0.000     0.000
+rst.inpad[0] (.input)                                                         0.000     0.000
+$iopadmap$helloworldfpga.rst.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$helloworldfpga.rst.I_DAT[0] (BIDIR_CELL)                           10.153    10.153
+rst_LUT3_I2_11.t_frag.XAB[0] (T_FRAG)                                         6.356    16.509
+rst_LUT3_I2_11.t_frag.XZ[0] (T_FRAG)                                          0.909    17.419
+counter_dffe_Q_10.QD[0] (Q_FRAG)                                              0.000    17.419
+data arrival time                                                                      17.419
+
+clock clk (rise edge)                                                         0.000     0.000
+clock source latency                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                      0.000     0.000
+counter_dffe_Q_10.QCK[0] (Q_FRAG)                                            13.106    13.106
+clock uncertainty                                                             0.000    13.106
+cell hold time                                                                0.571    13.677
+data required time                                                                     13.677
+---------------------------------------------------------------------------------------------
+data required time                                                                    -13.677
+data arrival time                                                                      17.419
+---------------------------------------------------------------------------------------------
+slack (MET)                                                                             3.741
+
+
+#Path 3
+Startpoint: rst.inpad[0] (.input clocked by clk)
+Endpoint  : counter_dffe_Q_9.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                          Incr      Path
+---------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                         0.000     0.000
+clock source latency                                                          0.000     0.000
+input external delay                                                          0.000     0.000
+rst.inpad[0] (.input)                                                         0.000     0.000
+$iopadmap$helloworldfpga.rst.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$helloworldfpga.rst.I_DAT[0] (BIDIR_CELL)                           10.153    10.153
+rst_LUT3_I2_10.t_frag.XAB[0] (T_FRAG)                                         5.911    16.064
+rst_LUT3_I2_10.t_frag.XZ[0] (T_FRAG)                                          0.909    16.974
+counter_dffe_Q_9.QD[0] (Q_FRAG)                                               0.000    16.974
+data arrival time                                                                      16.974
+
+clock clk (rise edge)                                                         0.000     0.000
+clock source latency                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                      0.000     0.000
+counter_dffe_Q_9.QCK[0] (Q_FRAG)                                             12.209    12.209
+clock uncertainty                                                             0.000    12.209
+cell hold time                                                                0.571    12.780
+data required time                                                                     12.780
+---------------------------------------------------------------------------------------------
+data required time                                                                    -12.780
+data arrival time                                                                      16.974
+---------------------------------------------------------------------------------------------
+slack (MET)                                                                             4.193
+
+
+#Path 4
+Startpoint: delay_dff_Q_23.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_23.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                   Incr      Path
+--------------------------------------------------------------------------------------
+clock clk (rise edge)                                                  0.000     0.000
+clock source latency                                                   0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                               0.000     0.000
+delay_dff_Q_23.QCK[0] (Q_FRAG)                                        13.128    13.128
+delay_dff_Q_23.QZ[0] (Q_FRAG) [clock-to-output]                        1.393    14.520
+delay_dff_Q_9_D_LUT2_O_12.t_frag.XSL[0] (T_FRAG)                       2.386    16.906
+delay_dff_Q_9_D_LUT2_O_12.t_frag.XZ[0] (T_FRAG)                        1.041    17.947
+delay_dff_Q_23.QD[0] (Q_FRAG)                                          0.000    17.947
+data arrival time                                                               17.947
+
+clock clk (rise edge)                                                  0.000     0.000
+clock source latency                                                   0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                               0.000     0.000
+delay_dff_Q_23.QCK[0] (Q_FRAG)                                        13.128    13.128
+clock uncertainty                                                      0.000    13.128
+cell hold time                                                         0.571    13.698
+data required time                                                              13.698
+--------------------------------------------------------------------------------------
+data required time                                                             -13.698
+data arrival time                                                               17.947
+--------------------------------------------------------------------------------------
+slack (MET)                                                                      4.248
+
+
+#Path 5
+Startpoint: delay_dff_Q_22.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_22.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                  Incr      Path
+-------------------------------------------------------------------------------------
+clock clk (rise edge)                                                 0.000     0.000
+clock source latency                                                  0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                              0.000     0.000
+delay_dff_Q_22.QCK[0] (Q_FRAG)                                       13.929    13.929
+delay_dff_Q_22.QZ[0] (Q_FRAG) [clock-to-output]                       1.393    15.322
+delay_dff_Q_9_D_LUT3_O_7.t_frag.XA1[0] (T_FRAG)                       2.280    17.601
+delay_dff_Q_9_D_LUT3_O_7.t_frag.XZ[0] (T_FRAG)                        1.392    18.993
+delay_dff_Q_22.QD[0] (Q_FRAG)                                         0.000    18.993
+data arrival time                                                              18.993
+
+clock clk (rise edge)                                                 0.000     0.000
+clock source latency                                                  0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                              0.000     0.000
+delay_dff_Q_22.QCK[0] (Q_FRAG)                                       13.929    13.929
+clock uncertainty                                                     0.000    13.929
+cell hold time                                                        0.571    14.500
+data required time                                                             14.500
+-------------------------------------------------------------------------------------
+data required time                                                            -14.500
+data arrival time                                                              18.993
+-------------------------------------------------------------------------------------
+slack (MET)                                                                     4.493
+
+
+#Path 6
+Startpoint: delay_dff_Q_19.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_19.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                  Incr      Path
+-------------------------------------------------------------------------------------
+clock clk (rise edge)                                                 0.000     0.000
+clock source latency                                                  0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                              0.000     0.000
+delay_dff_Q_19.QCK[0] (Q_FRAG)                                       13.992    13.992
+delay_dff_Q_19.QZ[0] (Q_FRAG) [clock-to-output]                       1.393    15.385
+delay_dff_Q_9_D_LUT3_O_5.t_frag.XA1[0] (T_FRAG)                       2.280    17.665
+delay_dff_Q_9_D_LUT3_O_5.t_frag.XZ[0] (T_FRAG)                        1.392    19.057
+delay_dff_Q_19.QD[0] (Q_FRAG)                                         0.000    19.057
+data arrival time                                                              19.057
+
+clock clk (rise edge)                                                 0.000     0.000
+clock source latency                                                  0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                              0.000     0.000
+delay_dff_Q_19.QCK[0] (Q_FRAG)                                       13.992    13.992
+clock uncertainty                                                     0.000    13.992
+cell hold time                                                        0.571    14.563
+data required time                                                             14.563
+-------------------------------------------------------------------------------------
+data required time                                                            -14.563
+data arrival time                                                              19.057
+-------------------------------------------------------------------------------------
+slack (MET)                                                                     4.493
+
+
+#Path 7
+Startpoint: delay_dff_Q_15.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_15.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                  Incr      Path
+-------------------------------------------------------------------------------------
+clock clk (rise edge)                                                 0.000     0.000
+clock source latency                                                  0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                              0.000     0.000
+delay_dff_Q_15.QCK[0] (Q_FRAG)                                       12.377    12.377
+delay_dff_Q_15.QZ[0] (Q_FRAG) [clock-to-output]                       1.393    13.769
+delay_dff_Q_9_D_LUT3_O_2.t_frag.XA1[0] (T_FRAG)                       2.280    16.049
+delay_dff_Q_9_D_LUT3_O_2.t_frag.XZ[0] (T_FRAG)                        1.392    17.441
+delay_dff_Q_15.QD[0] (Q_FRAG)                                         0.000    17.441
+data arrival time                                                              17.441
+
+clock clk (rise edge)                                                 0.000     0.000
+clock source latency                                                  0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                              0.000     0.000
+delay_dff_Q_15.QCK[0] (Q_FRAG)                                       12.377    12.377
+clock uncertainty                                                     0.000    12.377
+cell hold time                                                        0.571    12.948
+data required time                                                             12.948
+-------------------------------------------------------------------------------------
+data required time                                                            -12.948
+data arrival time                                                              17.441
+-------------------------------------------------------------------------------------
+slack (MET)                                                                     4.493
+
+
+#Path 8
+Startpoint: counter_dffe_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_2.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_2.QCK[0] (Q_FRAG)                                10.263    10.263
+counter_dffe_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                1.393    11.656
+rst_LUT3_I2_3.t_frag.XA1[0] (T_FRAG)                             2.280    13.936
+rst_LUT3_I2_3.t_frag.XZ[0] (T_FRAG)                              1.392    15.328
+counter_dffe_Q_2.QD[0] (Q_FRAG)                                  0.000    15.328
+data arrival time                                                         15.328
+
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_2.QCK[0] (Q_FRAG)                                10.263    10.263
+clock uncertainty                                                0.000    10.263
+cell hold time                                                   0.571    10.834
+data required time                                                        10.834
+--------------------------------------------------------------------------------
+data required time                                                       -10.834
+data arrival time                                                         15.328
+--------------------------------------------------------------------------------
+slack (MET)                                                                4.493
+
+
+#Path 9
+Startpoint: counter_dffe_Q_8.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_8.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_8.QCK[0] (Q_FRAG)                                12.246    12.246
+counter_dffe_Q_8.QZ[0] (Q_FRAG) [clock-to-output]                1.393    13.639
+rst_LUT3_I2_9.t_frag.XA1[0] (T_FRAG)                             2.280    15.919
+rst_LUT3_I2_9.t_frag.XZ[0] (T_FRAG)                              1.392    17.310
+counter_dffe_Q_8.QD[0] (Q_FRAG)                                  0.000    17.310
+data arrival time                                                         17.310
+
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_8.QCK[0] (Q_FRAG)                                12.246    12.246
+clock uncertainty                                                0.000    12.246
+cell hold time                                                   0.571    12.817
+data required time                                                        12.817
+--------------------------------------------------------------------------------
+data required time                                                       -12.817
+data arrival time                                                         17.310
+--------------------------------------------------------------------------------
+slack (MET)                                                                4.493
+
+
+#Path 10
+Startpoint: delay_dff_Q_20.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_20.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                  Incr      Path
+-------------------------------------------------------------------------------------
+clock clk (rise edge)                                                 0.000     0.000
+clock source latency                                                  0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                              0.000     0.000
+delay_dff_Q_20.QCK[0] (Q_FRAG)                                       13.132    13.132
+delay_dff_Q_20.QZ[0] (Q_FRAG) [clock-to-output]                       1.393    14.525
+delay_dff_Q_9_D_LUT3_O_6.t_frag.XA1[0] (T_FRAG)                       2.280    16.804
+delay_dff_Q_9_D_LUT3_O_6.t_frag.XZ[0] (T_FRAG)                        1.392    18.196
+delay_dff_Q_20.QD[0] (Q_FRAG)                                         0.000    18.196
+data arrival time                                                              18.196
+
+clock clk (rise edge)                                                 0.000     0.000
+clock source latency                                                  0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                              0.000     0.000
+delay_dff_Q_20.QCK[0] (Q_FRAG)                                       13.132    13.132
+clock uncertainty                                                     0.000    13.132
+cell hold time                                                        0.571    13.703
+data required time                                                             13.703
+-------------------------------------------------------------------------------------
+data required time                                                            -13.703
+data arrival time                                                              18.196
+-------------------------------------------------------------------------------------
+slack (MET)                                                                     4.493
+
+
+#Path 11
+Startpoint: counter_dffe_Q_12.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_12.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_12.QCK[0] (Q_FRAG)                               13.083    13.083
+counter_dffe_Q_12.QZ[0] (Q_FRAG) [clock-to-output]               1.393    14.476
+rst_LUT3_I2_13.t_frag.XA1[0] (T_FRAG)                            2.280    16.755
+rst_LUT3_I2_13.t_frag.XZ[0] (T_FRAG)                             1.392    18.147
+counter_dffe_Q_12.QD[0] (Q_FRAG)                                 0.000    18.147
+data arrival time                                                         18.147
+
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_12.QCK[0] (Q_FRAG)                               13.083    13.083
+clock uncertainty                                                0.000    13.083
+cell hold time                                                   0.571    13.654
+data required time                                                        13.654
+--------------------------------------------------------------------------------
+data required time                                                       -13.654
+data arrival time                                                         18.147
+--------------------------------------------------------------------------------
+slack (MET)                                                                4.493
+
+
+#Path 12
+Startpoint: counter_dffe_Q_13.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_13.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_13.QCK[0] (Q_FRAG)                               12.203    12.203
+counter_dffe_Q_13.QZ[0] (Q_FRAG) [clock-to-output]               1.393    13.596
+rst_LUT3_I2_14.t_frag.XA1[0] (T_FRAG)                            2.280    15.876
+rst_LUT3_I2_14.t_frag.XZ[0] (T_FRAG)                             1.392    17.268
+counter_dffe_Q_13.QD[0] (Q_FRAG)                                 0.000    17.268
+data arrival time                                                         17.268
+
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_13.QCK[0] (Q_FRAG)                               12.203    12.203
+clock uncertainty                                                0.000    12.203
+cell hold time                                                   0.571    12.774
+data required time                                                        12.774
+--------------------------------------------------------------------------------
+data required time                                                       -12.774
+data arrival time                                                         17.268
+--------------------------------------------------------------------------------
+slack (MET)                                                                4.493
+
+
+#Path 13
+Startpoint: delay_dff_Q_16.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_16.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                  Incr      Path
+-------------------------------------------------------------------------------------
+clock clk (rise edge)                                                 0.000     0.000
+clock source latency                                                  0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                              0.000     0.000
+delay_dff_Q_16.QCK[0] (Q_FRAG)                                       12.067    12.067
+delay_dff_Q_16.QZ[0] (Q_FRAG) [clock-to-output]                       1.393    13.460
+delay_dff_Q_9_D_LUT3_O_3.t_frag.XA1[0] (T_FRAG)                       2.280    15.740
+delay_dff_Q_9_D_LUT3_O_3.t_frag.XZ[0] (T_FRAG)                        1.392    17.131
+delay_dff_Q_16.QD[0] (Q_FRAG)                                         0.000    17.131
+data arrival time                                                              17.131
+
+clock clk (rise edge)                                                 0.000     0.000
+clock source latency                                                  0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                              0.000     0.000
+delay_dff_Q_16.QCK[0] (Q_FRAG)                                       12.067    12.067
+clock uncertainty                                                     0.000    12.067
+cell hold time                                                        0.571    12.638
+data required time                                                             12.638
+-------------------------------------------------------------------------------------
+data required time                                                            -12.638
+data arrival time                                                              17.131
+-------------------------------------------------------------------------------------
+slack (MET)                                                                     4.493
+
+
+#Path 14
+Startpoint: delay_dff_Q_18.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_18.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                  Incr      Path
+-------------------------------------------------------------------------------------
+clock clk (rise edge)                                                 0.000     0.000
+clock source latency                                                  0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                              0.000     0.000
+delay_dff_Q_18.QCK[0] (Q_FRAG)                                       14.002    14.002
+delay_dff_Q_18.QZ[0] (Q_FRAG) [clock-to-output]                       1.393    15.394
+delay_dff_Q_9_D_LUT3_O_4.t_frag.XA2[0] (T_FRAG)                       2.241    17.635
+delay_dff_Q_9_D_LUT3_O_4.t_frag.XZ[0] (T_FRAG)                        1.435    19.070
+delay_dff_Q_18.QD[0] (Q_FRAG)                                         0.000    19.070
+data arrival time                                                              19.070
+
+clock clk (rise edge)                                                 0.000     0.000
+clock source latency                                                  0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                              0.000     0.000
+delay_dff_Q_18.QCK[0] (Q_FRAG)                                       14.002    14.002
+clock uncertainty                                                     0.000    14.002
+cell hold time                                                        0.571    14.573
+data required time                                                             14.573
+-------------------------------------------------------------------------------------
+data required time                                                            -14.573
+data arrival time                                                              19.070
+-------------------------------------------------------------------------------------
+slack (MET)                                                                     4.497
+
+
+#Path 15
+Startpoint: delay_dff_Q_5.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_5.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                Incr      Path
+-----------------------------------------------------------------------------------
+clock clk (rise edge)                                               0.000     0.000
+clock source latency                                                0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                            0.000     0.000
+delay_dff_Q_5.QCK[0] (Q_FRAG)                                       9.524     9.524
+delay_dff_Q_5.QZ[0] (Q_FRAG) [clock-to-output]                      1.393    10.917
+delay_dff_Q_9_D_LUT3_O.t_frag.XA2[0] (T_FRAG)                       2.241    13.157
+delay_dff_Q_9_D_LUT3_O.t_frag.XZ[0] (T_FRAG)                        1.434    14.592
+delay_dff_Q_5.QD[0] (Q_FRAG)                                        0.000    14.592
+data arrival time                                                            14.592
+
+clock clk (rise edge)                                               0.000     0.000
+clock source latency                                                0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                            0.000     0.000
+delay_dff_Q_5.QCK[0] (Q_FRAG)                                       9.524     9.524
+clock uncertainty                                                   0.000     9.524
+cell hold time                                                      0.571    10.095
+data required time                                                           10.095
+-----------------------------------------------------------------------------------
+data required time                                                          -10.095
+data arrival time                                                            14.592
+-----------------------------------------------------------------------------------
+slack (MET)                                                                   4.497
+
+
+#Path 16
+Startpoint: delay_dff_Q_13.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_13.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                  Incr      Path
+-------------------------------------------------------------------------------------
+clock clk (rise edge)                                                 0.000     0.000
+clock source latency                                                  0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                              0.000     0.000
+delay_dff_Q_13.QCK[0] (Q_FRAG)                                        8.660     8.660
+delay_dff_Q_13.QZ[0] (Q_FRAG) [clock-to-output]                       1.393    10.053
+delay_dff_Q_9_D_LUT3_O_1.t_frag.XA2[0] (T_FRAG)                       2.241    12.293
+delay_dff_Q_9_D_LUT3_O_1.t_frag.XZ[0] (T_FRAG)                        1.434    13.728
+delay_dff_Q_13.QD[0] (Q_FRAG)                                         0.000    13.728
+data arrival time                                                              13.728
+
+clock clk (rise edge)                                                 0.000     0.000
+clock source latency                                                  0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                              0.000     0.000
+delay_dff_Q_13.QCK[0] (Q_FRAG)                                        8.660     8.660
+clock uncertainty                                                     0.000     8.660
+cell hold time                                                        0.571     9.231
+data required time                                                              9.231
+-------------------------------------------------------------------------------------
+data required time                                                             -9.231
+data arrival time                                                              13.728
+-------------------------------------------------------------------------------------
+slack (MET)                                                                     4.497
+
+
+#Path 17
+Startpoint: counter_dffe_Q_1.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_1.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_1.QCK[0] (Q_FRAG)                                 9.491     9.491
+counter_dffe_Q_1.QZ[0] (Q_FRAG) [clock-to-output]                1.393    10.884
+rst_LUT3_I2_2.t_frag.XA2[0] (T_FRAG)                             2.277    13.161
+rst_LUT3_I2_2.t_frag.XZ[0] (T_FRAG)                              1.434    14.596
+counter_dffe_Q_1.QD[0] (Q_FRAG)                                  0.000    14.596
+data arrival time                                                         14.596
+
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_1.QCK[0] (Q_FRAG)                                 9.491     9.491
+clock uncertainty                                                0.000     9.491
+cell hold time                                                   0.571    10.062
+data required time                                                        10.062
+--------------------------------------------------------------------------------
+data required time                                                       -10.062
+data arrival time                                                         14.596
+--------------------------------------------------------------------------------
+slack (MET)                                                                4.534
+
+
+#Path 18
+Startpoint: counter_dffe_Q_4.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_4.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_4.QCK[0] (Q_FRAG)                                 9.487     9.487
+counter_dffe_Q_4.QZ[0] (Q_FRAG) [clock-to-output]                1.393    10.880
+rst_LUT3_I2_5.t_frag.XA2[0] (T_FRAG)                             2.277    13.157
+rst_LUT3_I2_5.t_frag.XZ[0] (T_FRAG)                              1.434    14.591
+counter_dffe_Q_4.QD[0] (Q_FRAG)                                  0.000    14.591
+data arrival time                                                         14.591
+
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_4.QCK[0] (Q_FRAG)                                 9.487     9.487
+clock uncertainty                                                0.000     9.487
+cell hold time                                                   0.571    10.058
+data required time                                                        10.058
+--------------------------------------------------------------------------------
+data required time                                                       -10.058
+data arrival time                                                         14.591
+--------------------------------------------------------------------------------
+slack (MET)                                                                4.534
+
+
+#Path 19
+Startpoint: counter_dffe_Q.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q.QCK[0] (Q_FRAG)                                  10.374    10.374
+counter_dffe_Q.QZ[0] (Q_FRAG) [clock-to-output]                  1.393    11.767
+rst_LUT3_I2_1.t_frag.XA2[0] (T_FRAG)                             2.277    14.044
+rst_LUT3_I2_1.t_frag.XZ[0] (T_FRAG)                              1.435    15.479
+counter_dffe_Q.QD[0] (Q_FRAG)                                    0.000    15.479
+data arrival time                                                         15.479
+
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q.QCK[0] (Q_FRAG)                                  10.374    10.374
+clock uncertainty                                                0.000    10.374
+cell hold time                                                   0.571    10.945
+data required time                                                        10.945
+--------------------------------------------------------------------------------
+data required time                                                       -10.945
+data arrival time                                                         15.479
+--------------------------------------------------------------------------------
+slack (MET)                                                                4.534
+
+
+#Path 20
+Startpoint: counter_dffe_Q_14.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_14.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_14.QCK[0] (Q_FRAG)                               12.267    12.267
+counter_dffe_Q_14.QZ[0] (Q_FRAG) [clock-to-output]               1.393    13.660
+rst_LUT3_I2.t_frag.XA2[0] (T_FRAG)                               2.277    15.937
+rst_LUT3_I2.t_frag.XZ[0] (T_FRAG)                                1.435    17.372
+counter_dffe_Q_14.QD[0] (Q_FRAG)                                 0.000    17.372
+data arrival time                                                         17.372
+
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_14.QCK[0] (Q_FRAG)                               12.267    12.267
+clock uncertainty                                                0.000    12.267
+cell hold time                                                   0.571    12.838
+data required time                                                        12.838
+--------------------------------------------------------------------------------
+data required time                                                       -12.838
+data arrival time                                                         17.372
+--------------------------------------------------------------------------------
+slack (MET)                                                                4.534
+
+
+#Path 21
+Startpoint: counter_dffe_Q_3.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_3.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_3.QCK[0] (Q_FRAG)                                10.349    10.349
+counter_dffe_Q_3.QZ[0] (Q_FRAG) [clock-to-output]                1.393    11.741
+rst_LUT3_I2_4.t_frag.XA1[0] (T_FRAG)                             2.354    14.095
+rst_LUT3_I2_4.t_frag.XZ[0] (T_FRAG)                              1.392    15.487
+counter_dffe_Q_3.QD[0] (Q_FRAG)                                  0.000    15.487
+data arrival time                                                         15.487
+
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_3.QCK[0] (Q_FRAG)                                10.349    10.349
+clock uncertainty                                                0.000    10.349
+cell hold time                                                   0.571    10.920
+data required time                                                        10.920
+--------------------------------------------------------------------------------
+data required time                                                       -10.920
+data arrival time                                                         15.487
+--------------------------------------------------------------------------------
+slack (MET)                                                                4.567
+
+
+#Path 22
+Startpoint: counter_dffe_Q_5.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_5.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_5.QCK[0] (Q_FRAG)                                10.321    10.321
+counter_dffe_Q_5.QZ[0] (Q_FRAG) [clock-to-output]                1.393    11.714
+rst_LUT3_I2_6.t_frag.XA1[0] (T_FRAG)                             2.354    14.068
+rst_LUT3_I2_6.t_frag.XZ[0] (T_FRAG)                              1.392    15.459
+counter_dffe_Q_5.QD[0] (Q_FRAG)                                  0.000    15.459
+data arrival time                                                         15.459
+
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_5.QCK[0] (Q_FRAG)                                10.321    10.321
+clock uncertainty                                                0.000    10.321
+cell hold time                                                   0.571    10.892
+data required time                                                        10.892
+--------------------------------------------------------------------------------
+data required time                                                       -10.892
+data arrival time                                                         15.459
+--------------------------------------------------------------------------------
+slack (MET)                                                                4.567
+
+
+#Path 23
+Startpoint: counter_dffe_Q_6.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_6.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_6.QCK[0] (Q_FRAG)                                11.282    11.282
+counter_dffe_Q_6.QZ[0] (Q_FRAG) [clock-to-output]                1.393    12.675
+rst_LUT3_I2_7.t_frag.XA1[0] (T_FRAG)                             2.354    15.028
+rst_LUT3_I2_7.t_frag.XZ[0] (T_FRAG)                              1.392    16.420
+counter_dffe_Q_6.QD[0] (Q_FRAG)                                  0.000    16.420
+data arrival time                                                         16.420
+
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_6.QCK[0] (Q_FRAG)                                11.282    11.282
+clock uncertainty                                                0.000    11.282
+cell hold time                                                   0.571    11.853
+data required time                                                        11.853
+--------------------------------------------------------------------------------
+data required time                                                       -11.853
+data arrival time                                                         16.420
+--------------------------------------------------------------------------------
+slack (MET)                                                                4.567
+
+
+#Path 24
+Startpoint: counter_dffe_Q_7.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_7.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_7.QCK[0] (Q_FRAG)                                11.370    11.370
+counter_dffe_Q_7.QZ[0] (Q_FRAG) [clock-to-output]                1.393    12.763
+rst_LUT3_I2_8.t_frag.XA1[0] (T_FRAG)                             2.354    15.117
+rst_LUT3_I2_8.t_frag.XZ[0] (T_FRAG)                              1.392    16.508
+counter_dffe_Q_7.QD[0] (Q_FRAG)                                  0.000    16.508
+data arrival time                                                         16.508
+
+clock clk (rise edge)                                            0.000     0.000
+clock source latency                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                         0.000     0.000
+counter_dffe_Q_7.QCK[0] (Q_FRAG)                                11.370    11.370
+clock uncertainty                                                0.000    11.370
+cell hold time                                                   0.571    11.941
+data required time                                                        11.941
+--------------------------------------------------------------------------------
+data required time                                                       -11.941
+data arrival time                                                         16.508
+--------------------------------------------------------------------------------
+slack (MET)                                                                4.567
+
+
+#Path 25
+Startpoint: delay_dff_Q_18.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_17.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                             Incr      Path
+------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                            0.000     0.000
+clock source latency                                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                         0.000     0.000
+delay_dff_Q_18.QCK[0] (Q_FRAG)                                                  14.002    14.002
+delay_dff_Q_18.QZ[0] (Q_FRAG) [clock-to-output]                                  1.393    15.394
+delay_dff_Q_9_D_LUT2_O_10_I0_LUT3_O.t_frag.XSL[0] (T_FRAG)                       2.983    18.377
+delay_dff_Q_9_D_LUT2_O_10_I0_LUT3_O.t_frag.XZ[0] (T_FRAG)                        0.975    19.352
+delay_dff_Q_9_D_LUT2_O_10.t_frag.XSL[0] (T_FRAG)                                 2.486    21.838
+delay_dff_Q_9_D_LUT2_O_10.t_frag.XZ[0] (T_FRAG)                                  1.041    22.879
+delay_dff_Q_17.QD[0] (Q_FRAG)                                                    0.000    22.879
+data arrival time                                                                         22.879
+
+clock clk (rise edge)                                                            0.000     0.000
+clock source latency                                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                         0.000     0.000
+delay_dff_Q_17.QCK[0] (Q_FRAG)                                                  14.852    14.852
+clock uncertainty                                                                0.000    14.852
+cell hold time                                                                   0.571    15.423
+data required time                                                                        15.423
+------------------------------------------------------------------------------------------------
+data required time                                                                       -15.423
+data arrival time                                                                         22.879
+------------------------------------------------------------------------------------------------
+slack (MET)                                                                                7.457
+
+
+#Path 26
+Startpoint: delay_dff_Q_10.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_10.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                            Incr      Path
+-----------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                           0.000     0.000
+clock source latency                                                            0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                        0.000     0.000
+delay_dff_Q_10.QCK[0] (Q_FRAG)                                                  8.600     8.600
+delay_dff_Q_10.QZ[0] (Q_FRAG) [clock-to-output]                                 1.393     9.993
+delay_dff_Q_9_D_LUT2_O_6_I0_LUT2_O.t_frag.XSL[0] (T_FRAG)                       2.422    12.415
+delay_dff_Q_9_D_LUT2_O_6_I0_LUT2_O.t_frag.XZ[0] (T_FRAG)                        0.975    13.390
+delay_dff_Q_9_D_LUT2_O_6.t_frag.XSL[0] (T_FRAG)                                 2.611    16.001
+delay_dff_Q_9_D_LUT2_O_6.t_frag.XZ[0] (T_FRAG)                                  1.041    17.042
+delay_dff_Q_10.QD[0] (Q_FRAG)                                                   0.000    17.042
+data arrival time                                                                        17.042
+
+clock clk (rise edge)                                                           0.000     0.000
+clock source latency                                                            0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                        0.000     0.000
+delay_dff_Q_10.QCK[0] (Q_FRAG)                                                  8.600     8.600
+clock uncertainty                                                               0.000     8.600
+cell hold time                                                                  0.571     9.171
+data required time                                                                        9.171
+-----------------------------------------------------------------------------------------------
+data required time                                                                       -9.171
+data arrival time                                                                        17.042
+-----------------------------------------------------------------------------------------------
+slack (MET)                                                                               7.871
+
+
+#Path 27
+Startpoint: delay_dff_Q_7.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_7.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                            Incr      Path
+-----------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                           0.000     0.000
+clock source latency                                                            0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                        0.000     0.000
+delay_dff_Q_7.QCK[0] (Q_FRAG)                                                   9.557     9.557
+delay_dff_Q_7.QZ[0] (Q_FRAG) [clock-to-output]                                  1.393    10.949
+delay_dff_Q_9_D_LUT2_O_3_I0_LUT2_O.t_frag.XSL[0] (T_FRAG)                       2.422    13.371
+delay_dff_Q_9_D_LUT2_O_3_I0_LUT2_O.t_frag.XZ[0] (T_FRAG)                        0.975    14.346
+delay_dff_Q_9_D_LUT2_O_3.t_frag.XSL[0] (T_FRAG)                                 2.611    16.957
+delay_dff_Q_9_D_LUT2_O_3.t_frag.XZ[0] (T_FRAG)                                  1.041    17.999
+delay_dff_Q_7.QD[0] (Q_FRAG)                                                    0.000    17.999
+data arrival time                                                                        17.999
+
+clock clk (rise edge)                                                           0.000     0.000
+clock source latency                                                            0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                        0.000     0.000
+delay_dff_Q_7.QCK[0] (Q_FRAG)                                                   9.557     9.557
+clock uncertainty                                                               0.000     9.557
+cell hold time                                                                  0.571    10.128
+data required time                                                                       10.128
+-----------------------------------------------------------------------------------------------
+data required time                                                                      -10.128
+data arrival time                                                                        17.999
+-----------------------------------------------------------------------------------------------
+slack (MET)                                                                               7.871
+
+
+#Path 28
+Startpoint: delay_dff_Q_12.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_12.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                            Incr      Path
+-----------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                           0.000     0.000
+clock source latency                                                            0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                        0.000     0.000
+delay_dff_Q_12.QCK[0] (Q_FRAG)                                                 10.423    10.423
+delay_dff_Q_12.QZ[0] (Q_FRAG) [clock-to-output]                                 1.393    11.816
+delay_dff_Q_9_D_LUT2_O_8_I0_LUT3_O.t_frag.XA2[0] (T_FRAG)                       2.276    14.092
+delay_dff_Q_9_D_LUT2_O_8_I0_LUT3_O.t_frag.XZ[0] (T_FRAG)                        1.346    15.438
+delay_dff_Q_9_D_LUT2_O_8.t_frag.XSL[0] (T_FRAG)                                 2.486    17.924
+delay_dff_Q_9_D_LUT2_O_8.t_frag.XZ[0] (T_FRAG)                                  1.041    18.965
+delay_dff_Q_12.QD[0] (Q_FRAG)                                                   0.000    18.965
+data arrival time                                                                        18.965
+
+clock clk (rise edge)                                                           0.000     0.000
+clock source latency                                                            0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                        0.000     0.000
+delay_dff_Q_12.QCK[0] (Q_FRAG)                                                 10.423    10.423
+clock uncertainty                                                               0.000    10.423
+cell hold time                                                                  0.571    10.994
+data required time                                                                       10.994
+-----------------------------------------------------------------------------------------------
+data required time                                                                      -10.994
+data arrival time                                                                        18.965
+-----------------------------------------------------------------------------------------------
+slack (MET)                                                                               7.971
+
+
+#Path 29
+Startpoint: delay_dff_Q_4.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_4.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                            Incr      Path
+-----------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                           0.000     0.000
+clock source latency                                                            0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                        0.000     0.000
+delay_dff_Q_4.QCK[0] (Q_FRAG)                                                   9.568     9.568
+delay_dff_Q_4.QZ[0] (Q_FRAG) [clock-to-output]                                  1.393    10.961
+delay_dff_Q_9_D_LUT2_O_1_I0_LUT3_O.t_frag.XB1[0] (T_FRAG)                       2.324    13.285
+delay_dff_Q_9_D_LUT2_O_1_I0_LUT3_O.t_frag.XZ[0] (T_FRAG)                        1.333    14.618
+delay_dff_Q_9_D_LUT2_O_1.t_frag.XSL[0] (T_FRAG)                                 2.486    17.104
+delay_dff_Q_9_D_LUT2_O_1.t_frag.XZ[0] (T_FRAG)                                  1.041    18.145
+delay_dff_Q_4.QD[0] (Q_FRAG)                                                    0.000    18.145
+data arrival time                                                                        18.145
+
+clock clk (rise edge)                                                           0.000     0.000
+clock source latency                                                            0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                        0.000     0.000
+delay_dff_Q_4.QCK[0] (Q_FRAG)                                                   9.568     9.568
+clock uncertainty                                                               0.000     9.568
+cell hold time                                                                  0.571    10.139
+data required time                                                                       10.139
+-----------------------------------------------------------------------------------------------
+data required time                                                                      -10.139
+data arrival time                                                                        18.145
+-----------------------------------------------------------------------------------------------
+slack (MET)                                                                               8.006
+
+
+#Path 30
+Startpoint: delay_dff_Q_21.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_21.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                             Incr      Path
+------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                            0.000     0.000
+clock source latency                                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                         0.000     0.000
+delay_dff_Q_21.QCK[0] (Q_FRAG)                                                  13.788    13.788
+delay_dff_Q_21.QZ[0] (Q_FRAG) [clock-to-output]                                  1.393    15.181
+delay_dff_Q_9_D_LUT2_O_11_I0_LUT3_O.t_frag.XB2[0] (T_FRAG)                       2.337    17.517
+delay_dff_Q_9_D_LUT2_O_11_I0_LUT3_O.t_frag.XZ[0] (T_FRAG)                        1.333    18.850
+delay_dff_Q_9_D_LUT2_O_11.t_frag.XSL[0] (T_FRAG)                                 2.486    21.337
+delay_dff_Q_9_D_LUT2_O_11.t_frag.XZ[0] (T_FRAG)                                  1.041    22.378
+delay_dff_Q_21.QD[0] (Q_FRAG)                                                    0.000    22.378
+data arrival time                                                                         22.378
+
+clock clk (rise edge)                                                            0.000     0.000
+clock source latency                                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                         0.000     0.000
+delay_dff_Q_21.QCK[0] (Q_FRAG)                                                  13.788    13.788
+clock uncertainty                                                                0.000    13.788
+cell hold time                                                                   0.571    14.359
+data required time                                                                        14.359
+------------------------------------------------------------------------------------------------
+data required time                                                                       -14.359
+data arrival time                                                                         22.378
+------------------------------------------------------------------------------------------------
+slack (MET)                                                                                8.019
+
+
+#Path 31
+Startpoint: delay_dff_Q_6.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_6.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                            Incr      Path
+-----------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                           0.000     0.000
+clock source latency                                                            0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                        0.000     0.000
+delay_dff_Q_6.QCK[0] (Q_FRAG)                                                  10.357    10.357
+delay_dff_Q_6.QZ[0] (Q_FRAG) [clock-to-output]                                  1.393    11.750
+delay_dff_Q_9_D_LUT2_O_2_I0_LUT3_O.t_frag.XB1[0] (T_FRAG)                       2.261    14.011
+delay_dff_Q_9_D_LUT2_O_2_I0_LUT3_O.t_frag.XZ[0] (T_FRAG)                        1.333    15.344
+delay_dff_Q_9_D_LUT2_O_2.t_frag.XSL[0] (T_FRAG)                                 2.611    17.955
+delay_dff_Q_9_D_LUT2_O_2.t_frag.XZ[0] (T_FRAG)                                  1.041    18.997
+delay_dff_Q_6.QD[0] (Q_FRAG)                                                    0.000    18.997
+data arrival time                                                                        18.997
+
+clock clk (rise edge)                                                           0.000     0.000
+clock source latency                                                            0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                        0.000     0.000
+delay_dff_Q_6.QCK[0] (Q_FRAG)                                                  10.357    10.357
+clock uncertainty                                                               0.000    10.357
+cell hold time                                                                  0.571    10.928
+data required time                                                                       10.928
+-----------------------------------------------------------------------------------------------
+data required time                                                                      -10.928
+data arrival time                                                                        18.997
+-----------------------------------------------------------------------------------------------
+slack (MET)                                                                               8.069
+
+
+#Path 32
+Startpoint: delay_dff_Q_9.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_9.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                            Incr      Path
+-----------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                           0.000     0.000
+clock source latency                                                            0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                        0.000     0.000
+delay_dff_Q_9.QCK[0] (Q_FRAG)                                                   8.686     8.686
+delay_dff_Q_9.QZ[0] (Q_FRAG) [clock-to-output]                                  1.393    10.078
+delay_dff_Q_9_D_LUT2_O_5_I0_LUT3_O.t_frag.XA1[0] (T_FRAG)                       2.266    12.344
+delay_dff_Q_9_D_LUT2_O_5_I0_LUT3_O.t_frag.XZ[0] (T_FRAG)                        1.365    13.709
+delay_dff_Q_9_D_LUT2_O_5.t_frag.XSL[0] (T_FRAG)                                 2.611    16.321
+delay_dff_Q_9_D_LUT2_O_5.t_frag.XZ[0] (T_FRAG)                                  1.041    17.362
+delay_dff_Q_9.QD[0] (Q_FRAG)                                                    0.000    17.362
+data arrival time                                                                        17.362
+
+clock clk (rise edge)                                                           0.000     0.000
+clock source latency                                                            0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                        0.000     0.000
+delay_dff_Q_9.QCK[0] (Q_FRAG)                                                   8.686     8.686
+clock uncertainty                                                               0.000     8.686
+cell hold time                                                                  0.571     9.257
+data required time                                                                        9.257
+-----------------------------------------------------------------------------------------------
+data required time                                                                       -9.257
+data arrival time                                                                        17.362
+-----------------------------------------------------------------------------------------------
+slack (MET)                                                                               8.105
+
+
+#Path 33
+Startpoint: delay_dff_Q_14.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_14.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                            Incr      Path
+-----------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                           0.000     0.000
+clock source latency                                                            0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                        0.000     0.000
+delay_dff_Q_14.QCK[0] (Q_FRAG)                                                 11.391    11.391
+delay_dff_Q_14.QZ[0] (Q_FRAG) [clock-to-output]                                 1.393    12.784
+delay_dff_Q_9_D_LUT2_O_9_I0_LUT3_O.t_frag.XA1[0] (T_FRAG)                       2.266    15.049
+delay_dff_Q_9_D_LUT2_O_9_I0_LUT3_O.t_frag.XZ[0] (T_FRAG)                        1.365    16.415
+delay_dff_Q_9_D_LUT2_O_9.t_frag.XSL[0] (T_FRAG)                                 2.611    19.026
+delay_dff_Q_9_D_LUT2_O_9.t_frag.XZ[0] (T_FRAG)                                  1.041    20.067
+delay_dff_Q_14.QD[0] (Q_FRAG)                                                   0.000    20.067
+data arrival time                                                                        20.067
+
+clock clk (rise edge)                                                           0.000     0.000
+clock source latency                                                            0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                        0.000     0.000
+delay_dff_Q_14.QCK[0] (Q_FRAG)                                                 11.391    11.391
+clock uncertainty                                                               0.000    11.391
+cell hold time                                                                  0.571    11.962
+data required time                                                                       11.962
+-----------------------------------------------------------------------------------------------
+data required time                                                                      -11.962
+data arrival time                                                                        20.067
+-----------------------------------------------------------------------------------------------
+slack (MET)                                                                               8.105
+
+
+#Path 34
+Startpoint: rst.inpad[0] (.input clocked by clk)
+Endpoint  : led_dffe_Q.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                          Incr      Path
+---------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                         0.000     0.000
+clock source latency                                                          0.000     0.000
+input external delay                                                          0.000     0.000
+rst.inpad[0] (.input)                                                         0.000     0.000
+$iopadmap$helloworldfpga.rst.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$helloworldfpga.rst.I_DAT[0] (BIDIR_CELL)                           10.153    10.153
+rst_LUT2_I1.t_frag.XAB[0] (T_FRAG)                                            5.235    15.388
+rst_LUT2_I1.t_frag.XZ[0] (T_FRAG)                                             0.852    16.240
+led_dffe_Q.QD[0] (Q_FRAG)                                                     4.032    20.272
+data arrival time                                                                      20.272
+
+clock clk (rise edge)                                                         0.000     0.000
+clock source latency                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                      0.000     0.000
+led_dffe_Q.QCK[0] (Q_FRAG)                                                   11.386    11.386
+clock uncertainty                                                             0.000    11.386
+cell hold time                                                                0.571    11.957
+data required time                                                                     11.957
+---------------------------------------------------------------------------------------------
+data required time                                                                    -11.957
+data arrival time                                                                      20.272
+---------------------------------------------------------------------------------------------
+slack (MET)                                                                             8.315
+
+
+#Path 35
+Startpoint: delay_dff_Q_10.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_8.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                            Incr      Path
+-----------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                           0.000     0.000
+clock source latency                                                            0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                        0.000     0.000
+delay_dff_Q_10.QCK[0] (Q_FRAG)                                                  8.600     8.600
+delay_dff_Q_10.QZ[0] (Q_FRAG) [clock-to-output]                                 1.393     9.993
+delay_dff_Q_9_D_LUT2_O_4_I0_LUT4_O.c_frag.BAB[0] (C_FRAG)                       3.666    13.659
+delay_dff_Q_9_D_LUT2_O_4_I0_LUT4_O.c_frag.CZ[0] (C_FRAG)                        0.909    14.568
+delay_dff_Q_9_D_LUT2_O_4.t_frag.XSL[0] (T_FRAG)                                 4.231    18.799
+delay_dff_Q_9_D_LUT2_O_4.t_frag.XZ[0] (T_FRAG)                                  1.041    19.840
+delay_dff_Q_8.QD[0] (Q_FRAG)                                                    0.000    19.840
+data arrival time                                                                        19.840
+
+clock clk (rise edge)                                                           0.000     0.000
+clock source latency                                                            0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                        0.000     0.000
+delay_dff_Q_8.QCK[0] (Q_FRAG)                                                   9.622     9.622
+clock uncertainty                                                               0.000     9.622
+cell hold time                                                                  0.571    10.193
+data required time                                                                       10.193
+-----------------------------------------------------------------------------------------------
+data required time                                                                      -10.193
+data arrival time                                                                        19.840
+-----------------------------------------------------------------------------------------------
+slack (MET)                                                                               9.647
+
+
+#Path 36
+Startpoint: rst.inpad[0] (.input clocked by clk)
+Endpoint  : counter_dffe_Q_15.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                          Incr      Path
+---------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                         0.000     0.000
+clock source latency                                                          0.000     0.000
+input external delay                                                          0.000     0.000
+rst.inpad[0] (.input)                                                         0.000     0.000
+$iopadmap$helloworldfpga.rst.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$helloworldfpga.rst.I_DAT[0] (BIDIR_CELL)                           10.153    10.153
+rst_LUT2_I1.t_frag.XAB[0] (T_FRAG)                                            5.235    15.388
+rst_LUT2_I1.t_frag.XZ[0] (T_FRAG)                                             0.852    16.240
+counter_dffe_Q_15.QD[0] (Q_FRAG)                                              4.857    21.097
+data arrival time                                                                      21.097
+
+clock clk (rise edge)                                                         0.000     0.000
+clock source latency                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                      0.000     0.000
+counter_dffe_Q_15.QCK[0] (Q_FRAG)                                            10.633    10.633
+clock uncertainty                                                             0.000    10.633
+cell hold time                                                                0.571    11.204
+data required time                                                                     11.204
+---------------------------------------------------------------------------------------------
+data required time                                                                    -11.204
+data arrival time                                                                      21.097
+---------------------------------------------------------------------------------------------
+slack (MET)                                                                             9.893
+
+
+#Path 37
+Startpoint: delay_dff_Q_11.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_11.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                            Incr      Path
+-----------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                           0.000     0.000
+clock source latency                                                            0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                        0.000     0.000
+delay_dff_Q_11.QCK[0] (Q_FRAG)                                                  8.703     8.703
+delay_dff_Q_11.QZ[0] (Q_FRAG) [clock-to-output]                                 1.393    10.095
+delay_dff_Q_9_D_LUT2_O_7_I0_LUT4_O.c_frag.BB2[0] (C_FRAG)                       4.464    14.560
+delay_dff_Q_9_D_LUT2_O_7_I0_LUT4_O.c_frag.CZ[0] (C_FRAG)                        1.378    15.938
+delay_dff_Q_9_D_LUT2_O_7.t_frag.XSL[0] (T_FRAG)                                 3.421    19.359
+delay_dff_Q_9_D_LUT2_O_7.t_frag.XZ[0] (T_FRAG)                                  1.041    20.400
+delay_dff_Q_11.QD[0] (Q_FRAG)                                                   0.000    20.400
+data arrival time                                                                        20.400
+
+clock clk (rise edge)                                                           0.000     0.000
+clock source latency                                                            0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                        0.000     0.000
+delay_dff_Q_11.QCK[0] (Q_FRAG)                                                  8.703     8.703
+clock uncertainty                                                               0.000     8.703
+cell hold time                                                                  0.571     9.274
+data required time                                                                        9.274
+-----------------------------------------------------------------------------------------------
+data required time                                                                       -9.274
+data arrival time                                                                        20.400
+-----------------------------------------------------------------------------------------------
+slack (MET)                                                                              11.126
+
+
+#Path 38
+Startpoint: delay_dff_Q_3.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_3.QD[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                        Incr      Path
+-------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_3.QCK[0] (Q_FRAG)                                              10.490    10.490
+delay_dff_Q_3.QZ[0] (Q_FRAG) [clock-to-output]                              1.393    11.883
+led_dffe_Q_EN_LUT4_O_I2_LUT2_O.t_frag.XSL[0] (T_FRAG)                       5.877    17.760
+led_dffe_Q_EN_LUT4_O_I2_LUT2_O.t_frag.XZ[0] (T_FRAG)                        0.975    18.735
+delay_dff_Q_9_D_LUT2_O.t_frag.XSL[0] (T_FRAG)                               2.486    21.221
+delay_dff_Q_9_D_LUT2_O.t_frag.XZ[0] (T_FRAG)                                1.041    22.262
+delay_dff_Q_3.QD[0] (Q_FRAG)                                                0.000    22.262
+data arrival time                                                                    22.262
+
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_3.QCK[0] (Q_FRAG)                                              10.490    10.490
+clock uncertainty                                                           0.000    10.490
+cell hold time                                                              0.571    11.061
+data required time                                                                   11.061
+-------------------------------------------------------------------------------------------
+data required time                                                                  -11.061
+data arrival time                                                                    22.262
+-------------------------------------------------------------------------------------------
+slack (MET)                                                                          11.201
+
+
+#Path 39
+Startpoint: delay_dff_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_11.QEN[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                        Incr      Path
+-------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_2.QCK[0] (Q_FRAG)                                              11.343    11.343
+delay_dff_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                              1.393    12.736
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.BSL[0] (C_FRAG)                       2.498    15.234
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                        1.041    16.275
+led_dffe_Q_EN_LUT4_O.c_frag.BSL[0] (C_FRAG)                                 3.326    19.601
+led_dffe_Q_EN_LUT4_O.c_frag.CZ[0] (C_FRAG)                                  1.041    20.642
+counter_dffe_Q_11.QEN[0] (Q_FRAG)                                           5.065    25.708
+data arrival time                                                                    25.708
+
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+counter_dffe_Q_11.QCK[0] (Q_FRAG)                                          13.930    13.930
+clock uncertainty                                                           0.000    13.930
+cell hold time                                                             -0.394    13.536
+data required time                                                                   13.536
+-------------------------------------------------------------------------------------------
+data required time                                                                  -13.536
+data arrival time                                                                    25.708
+-------------------------------------------------------------------------------------------
+slack (MET)                                                                          12.172
+
+
+#Path 40
+Startpoint: delay_dff_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : led_dffe_Q.QEN[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                        Incr      Path
+-------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_2.QCK[0] (Q_FRAG)                                              11.343    11.343
+delay_dff_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                              1.393    12.736
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.BSL[0] (C_FRAG)                       2.498    15.234
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                        1.041    16.275
+led_dffe_Q_EN_LUT4_O.c_frag.BSL[0] (C_FRAG)                                 3.326    19.601
+led_dffe_Q_EN_LUT4_O.c_frag.CZ[0] (C_FRAG)                                  1.041    20.642
+led_dffe_Q.QEN[0] (Q_FRAG)                                                  2.606    23.248
+data arrival time                                                                    23.248
+
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+led_dffe_Q.QCK[0] (Q_FRAG)                                                 11.386    11.386
+clock uncertainty                                                           0.000    11.386
+cell hold time                                                             -0.394    10.991
+data required time                                                                   10.991
+-------------------------------------------------------------------------------------------
+data required time                                                                  -10.991
+data arrival time                                                                    23.248
+-------------------------------------------------------------------------------------------
+slack (MET)                                                                          12.257
+
+
+#Path 41
+Startpoint: delay_dff_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_9.QEN[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                        Incr      Path
+-------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_2.QCK[0] (Q_FRAG)                                              11.343    11.343
+delay_dff_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                              1.393    12.736
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.BSL[0] (C_FRAG)                       2.498    15.234
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                        1.041    16.275
+led_dffe_Q_EN_LUT4_O.c_frag.BSL[0] (C_FRAG)                                 3.326    19.601
+led_dffe_Q_EN_LUT4_O.c_frag.CZ[0] (C_FRAG)                                  1.041    20.642
+counter_dffe_Q_9.QEN[0] (Q_FRAG)                                            3.625    24.267
+data arrival time                                                                    24.267
+
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+counter_dffe_Q_9.QCK[0] (Q_FRAG)                                           12.209    12.209
+clock uncertainty                                                           0.000    12.209
+cell hold time                                                             -0.394    11.815
+data required time                                                                   11.815
+-------------------------------------------------------------------------------------------
+data required time                                                                  -11.815
+data arrival time                                                                    24.267
+-------------------------------------------------------------------------------------------
+slack (MET)                                                                          12.452
+
+
+#Path 42
+Startpoint: delay_dff_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_8.QEN[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                        Incr      Path
+-------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_2.QCK[0] (Q_FRAG)                                              11.343    11.343
+delay_dff_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                              1.393    12.736
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.BSL[0] (C_FRAG)                       2.498    15.234
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                        1.041    16.275
+led_dffe_Q_EN_LUT4_O.c_frag.BSL[0] (C_FRAG)                                 3.326    19.601
+led_dffe_Q_EN_LUT4_O.c_frag.CZ[0] (C_FRAG)                                  1.041    20.642
+counter_dffe_Q_8.QEN[0] (Q_FRAG)                                            3.907    24.550
+data arrival time                                                                    24.550
+
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+counter_dffe_Q_8.QCK[0] (Q_FRAG)                                           12.246    12.246
+clock uncertainty                                                           0.000    12.246
+cell hold time                                                             -0.394    11.852
+data required time                                                                   11.852
+-------------------------------------------------------------------------------------------
+data required time                                                                  -11.852
+data arrival time                                                                    24.550
+-------------------------------------------------------------------------------------------
+slack (MET)                                                                          12.698
+
+
+#Path 43
+Startpoint: delay_dff_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_10.QEN[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                        Incr      Path
+-------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_2.QCK[0] (Q_FRAG)                                              11.343    11.343
+delay_dff_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                              1.393    12.736
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.BSL[0] (C_FRAG)                       2.498    15.234
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                        1.041    16.275
+led_dffe_Q_EN_LUT4_O.c_frag.BSL[0] (C_FRAG)                                 3.326    19.601
+led_dffe_Q_EN_LUT4_O.c_frag.CZ[0] (C_FRAG)                                  1.041    20.642
+counter_dffe_Q_10.QEN[0] (Q_FRAG)                                           5.242    25.885
+data arrival time                                                                    25.885
+
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+counter_dffe_Q_10.QCK[0] (Q_FRAG)                                          13.106    13.106
+clock uncertainty                                                           0.000    13.106
+cell hold time                                                             -0.394    12.712
+data required time                                                                   12.712
+-------------------------------------------------------------------------------------------
+data required time                                                                  -12.712
+data arrival time                                                                    25.885
+-------------------------------------------------------------------------------------------
+slack (MET)                                                                          13.173
+
+
+#Path 44
+Startpoint: delay_dff_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_12.QEN[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                        Incr      Path
+-------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_2.QCK[0] (Q_FRAG)                                              11.343    11.343
+delay_dff_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                              1.393    12.736
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.BSL[0] (C_FRAG)                       2.498    15.234
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                        1.041    16.275
+led_dffe_Q_EN_LUT4_O.c_frag.BSL[0] (C_FRAG)                                 3.326    19.601
+led_dffe_Q_EN_LUT4_O.c_frag.CZ[0] (C_FRAG)                                  1.041    20.642
+counter_dffe_Q_12.QEN[0] (Q_FRAG)                                           5.377    26.020
+data arrival time                                                                    26.020
+
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+counter_dffe_Q_12.QCK[0] (Q_FRAG)                                          13.083    13.083
+clock uncertainty                                                           0.000    13.083
+cell hold time                                                             -0.394    12.689
+data required time                                                                   12.689
+-------------------------------------------------------------------------------------------
+data required time                                                                  -12.689
+data arrival time                                                                    26.020
+-------------------------------------------------------------------------------------------
+slack (MET)                                                                          13.331
+
+
+#Path 45
+Startpoint: delay_dff_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_13.QEN[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                        Incr      Path
+-------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_2.QCK[0] (Q_FRAG)                                              11.343    11.343
+delay_dff_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                              1.393    12.736
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.BSL[0] (C_FRAG)                       2.498    15.234
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                        1.041    16.275
+led_dffe_Q_EN_LUT4_O.c_frag.BSL[0] (C_FRAG)                                 3.326    19.601
+led_dffe_Q_EN_LUT4_O.c_frag.CZ[0] (C_FRAG)                                  1.041    20.642
+counter_dffe_Q_13.QEN[0] (Q_FRAG)                                           4.869    25.512
+data arrival time                                                                    25.512
+
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+counter_dffe_Q_13.QCK[0] (Q_FRAG)                                          12.203    12.203
+clock uncertainty                                                           0.000    12.203
+cell hold time                                                             -0.394    11.809
+data required time                                                                   11.809
+-------------------------------------------------------------------------------------------
+data required time                                                                  -11.809
+data arrival time                                                                    25.512
+-------------------------------------------------------------------------------------------
+slack (MET)                                                                          13.703
+
+
+#Path 46
+Startpoint: delay_dff_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_7.QEN[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                        Incr      Path
+-------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_2.QCK[0] (Q_FRAG)                                              11.343    11.343
+delay_dff_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                              1.393    12.736
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.BSL[0] (C_FRAG)                       2.498    15.234
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                        1.041    16.275
+led_dffe_Q_EN_LUT4_O.c_frag.BSL[0] (C_FRAG)                                 3.326    19.601
+led_dffe_Q_EN_LUT4_O.c_frag.CZ[0] (C_FRAG)                                  1.041    20.642
+counter_dffe_Q_7.QEN[0] (Q_FRAG)                                            4.369    25.012
+data arrival time                                                                    25.012
+
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+counter_dffe_Q_7.QCK[0] (Q_FRAG)                                           11.370    11.370
+clock uncertainty                                                           0.000    11.370
+cell hold time                                                             -0.394    10.976
+data required time                                                                   10.976
+-------------------------------------------------------------------------------------------
+data required time                                                                  -10.976
+data arrival time                                                                    25.012
+-------------------------------------------------------------------------------------------
+slack (MET)                                                                          14.036
+
+
+#Path 47
+Startpoint: delay_dff_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_6.QEN[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                        Incr      Path
+-------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_2.QCK[0] (Q_FRAG)                                              11.343    11.343
+delay_dff_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                              1.393    12.736
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.BSL[0] (C_FRAG)                       2.498    15.234
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                        1.041    16.275
+led_dffe_Q_EN_LUT4_O.c_frag.BSL[0] (C_FRAG)                                 3.326    19.601
+led_dffe_Q_EN_LUT4_O.c_frag.CZ[0] (C_FRAG)                                  1.041    20.642
+counter_dffe_Q_6.QEN[0] (Q_FRAG)                                            4.439    25.082
+data arrival time                                                                    25.082
+
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+counter_dffe_Q_6.QCK[0] (Q_FRAG)                                           11.282    11.282
+clock uncertainty                                                           0.000    11.282
+cell hold time                                                             -0.394    10.888
+data required time                                                                   10.888
+-------------------------------------------------------------------------------------------
+data required time                                                                  -10.888
+data arrival time                                                                    25.082
+-------------------------------------------------------------------------------------------
+slack (MET)                                                                          14.194
+
+
+#Path 48
+Startpoint: delay_dff_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_14.QEN[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                        Incr      Path
+-------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_2.QCK[0] (Q_FRAG)                                              11.343    11.343
+delay_dff_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                              1.393    12.736
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.BSL[0] (C_FRAG)                       2.498    15.234
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                        1.041    16.275
+led_dffe_Q_EN_LUT4_O.c_frag.BSL[0] (C_FRAG)                                 3.326    19.601
+led_dffe_Q_EN_LUT4_O.c_frag.CZ[0] (C_FRAG)                                  1.041    20.642
+counter_dffe_Q_14.QEN[0] (Q_FRAG)                                           5.716    26.359
+data arrival time                                                                    26.359
+
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+counter_dffe_Q_14.QCK[0] (Q_FRAG)                                          12.267    12.267
+clock uncertainty                                                           0.000    12.267
+cell hold time                                                             -0.394    11.873
+data required time                                                                   11.873
+-------------------------------------------------------------------------------------------
+data required time                                                                  -11.873
+data arrival time                                                                    26.359
+-------------------------------------------------------------------------------------------
+slack (MET)                                                                          14.486
+
+
+#Path 49
+Startpoint: delay_dff_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_3.QEN[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                        Incr      Path
+-------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_2.QCK[0] (Q_FRAG)                                              11.343    11.343
+delay_dff_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                              1.393    12.736
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.BSL[0] (C_FRAG)                       2.498    15.234
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                        1.041    16.275
+led_dffe_Q_EN_LUT4_O.c_frag.BSL[0] (C_FRAG)                                 3.326    19.601
+led_dffe_Q_EN_LUT4_O.c_frag.CZ[0] (C_FRAG)                                  1.041    20.642
+counter_dffe_Q_3.QEN[0] (Q_FRAG)                                            4.245    24.888
+data arrival time                                                                    24.888
+
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+counter_dffe_Q_3.QCK[0] (Q_FRAG)                                           10.349    10.349
+clock uncertainty                                                           0.000    10.349
+cell hold time                                                             -0.394     9.954
+data required time                                                                    9.954
+-------------------------------------------------------------------------------------------
+data required time                                                                   -9.954
+data arrival time                                                                    24.888
+-------------------------------------------------------------------------------------------
+slack (MET)                                                                          14.933
+
+
+#Path 50
+Startpoint: delay_dff_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_15.QEN[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                        Incr      Path
+-------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_2.QCK[0] (Q_FRAG)                                              11.343    11.343
+delay_dff_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                              1.393    12.736
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.BSL[0] (C_FRAG)                       2.498    15.234
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                        1.041    16.275
+led_dffe_Q_EN_LUT4_O.c_frag.BSL[0] (C_FRAG)                                 3.326    19.601
+led_dffe_Q_EN_LUT4_O.c_frag.CZ[0] (C_FRAG)                                  1.041    20.642
+counter_dffe_Q_15.QEN[0] (Q_FRAG)                                           4.590    25.233
+data arrival time                                                                    25.233
+
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+counter_dffe_Q_15.QCK[0] (Q_FRAG)                                          10.633    10.633
+clock uncertainty                                                           0.000    10.633
+cell hold time                                                             -0.394    10.239
+data required time                                                                   10.239
+-------------------------------------------------------------------------------------------
+data required time                                                                  -10.239
+data arrival time                                                                    25.233
+-------------------------------------------------------------------------------------------
+slack (MET)                                                                          14.993
+
+
+#Path 51
+Startpoint: delay_dff_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_5.QEN[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                        Incr      Path
+-------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_2.QCK[0] (Q_FRAG)                                              11.343    11.343
+delay_dff_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                              1.393    12.736
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.BSL[0] (C_FRAG)                       2.498    15.234
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                        1.041    16.275
+led_dffe_Q_EN_LUT4_O.c_frag.BSL[0] (C_FRAG)                                 3.326    19.601
+led_dffe_Q_EN_LUT4_O.c_frag.CZ[0] (C_FRAG)                                  1.041    20.642
+counter_dffe_Q_5.QEN[0] (Q_FRAG)                                            5.043    25.685
+data arrival time                                                                    25.685
+
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+counter_dffe_Q_5.QCK[0] (Q_FRAG)                                           10.321    10.321
+clock uncertainty                                                           0.000    10.321
+cell hold time                                                             -0.394     9.927
+data required time                                                                    9.927
+-------------------------------------------------------------------------------------------
+data required time                                                                   -9.927
+data arrival time                                                                    25.685
+-------------------------------------------------------------------------------------------
+slack (MET)                                                                          15.758
+
+
+#Path 52
+Startpoint: delay_dff_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_1.QEN[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                        Incr      Path
+-------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_2.QCK[0] (Q_FRAG)                                              11.343    11.343
+delay_dff_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                              1.393    12.736
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.BSL[0] (C_FRAG)                       2.498    15.234
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                        1.041    16.275
+led_dffe_Q_EN_LUT4_O.c_frag.BSL[0] (C_FRAG)                                 3.326    19.601
+led_dffe_Q_EN_LUT4_O.c_frag.CZ[0] (C_FRAG)                                  1.041    20.642
+counter_dffe_Q_1.QEN[0] (Q_FRAG)                                            4.259    24.902
+data arrival time                                                                    24.902
+
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+counter_dffe_Q_1.QCK[0] (Q_FRAG)                                            9.491     9.491
+clock uncertainty                                                           0.000     9.491
+cell hold time                                                             -0.394     9.097
+data required time                                                                    9.097
+-------------------------------------------------------------------------------------------
+data required time                                                                   -9.097
+data arrival time                                                                    24.902
+-------------------------------------------------------------------------------------------
+slack (MET)                                                                          15.805
+
+
+#Path 53
+Startpoint: delay_dff_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q.QEN[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                        Incr      Path
+-------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_2.QCK[0] (Q_FRAG)                                              11.343    11.343
+delay_dff_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                              1.393    12.736
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.BSL[0] (C_FRAG)                       2.498    15.234
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                        1.041    16.275
+led_dffe_Q_EN_LUT4_O.c_frag.BSL[0] (C_FRAG)                                 3.326    19.601
+led_dffe_Q_EN_LUT4_O.c_frag.CZ[0] (C_FRAG)                                  1.041    20.642
+counter_dffe_Q.QEN[0] (Q_FRAG)                                              5.253    25.896
+data arrival time                                                                    25.896
+
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+counter_dffe_Q.QCK[0] (Q_FRAG)                                             10.374    10.374
+clock uncertainty                                                           0.000    10.374
+cell hold time                                                             -0.394     9.980
+data required time                                                                    9.980
+-------------------------------------------------------------------------------------------
+data required time                                                                   -9.980
+data arrival time                                                                    25.896
+-------------------------------------------------------------------------------------------
+slack (MET)                                                                          15.916
+
+
+#Path 54
+Startpoint: delay_dff_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_4.QEN[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                        Incr      Path
+-------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_2.QCK[0] (Q_FRAG)                                              11.343    11.343
+delay_dff_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                              1.393    12.736
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.BSL[0] (C_FRAG)                       2.498    15.234
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                        1.041    16.275
+led_dffe_Q_EN_LUT4_O.c_frag.BSL[0] (C_FRAG)                                 3.326    19.601
+led_dffe_Q_EN_LUT4_O.c_frag.CZ[0] (C_FRAG)                                  1.041    20.642
+counter_dffe_Q_4.QEN[0] (Q_FRAG)                                            5.138    25.780
+data arrival time                                                                    25.780
+
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+counter_dffe_Q_4.QCK[0] (Q_FRAG)                                            9.487     9.487
+clock uncertainty                                                           0.000     9.487
+cell hold time                                                             -0.394     9.093
+data required time                                                                    9.093
+-------------------------------------------------------------------------------------------
+data required time                                                                   -9.093
+data arrival time                                                                    25.780
+-------------------------------------------------------------------------------------------
+slack (MET)                                                                          16.687
+
+
+#Path 55
+Startpoint: delay_dff_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : counter_dffe_Q_2.QEN[0] (Q_FRAG clocked by clk)
+Path Type : hold
+
+Point                                                                        Incr      Path
+-------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+delay_dff_Q_2.QCK[0] (Q_FRAG)                                              11.343    11.343
+delay_dff_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                              1.393    12.736
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.BSL[0] (C_FRAG)                       2.498    15.234
+led_dffe_Q_EN_LUT4_O_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                        1.041    16.275
+led_dffe_Q_EN_LUT4_O.c_frag.BSL[0] (C_FRAG)                                 3.326    19.601
+led_dffe_Q_EN_LUT4_O.c_frag.CZ[0] (C_FRAG)                                  1.041    20.642
+counter_dffe_Q_2.QEN[0] (Q_FRAG)                                            6.046    26.689
+data arrival time                                                                    26.689
+
+clock clk (rise edge)                                                       0.000     0.000
+clock source latency                                                        0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                    0.000     0.000
+counter_dffe_Q_2.QCK[0] (Q_FRAG)                                           10.263    10.263
+clock uncertainty                                                           0.000    10.263
+cell hold time                                                             -0.394     9.869
+data required time                                                                    9.869
+-------------------------------------------------------------------------------------------
+data required time                                                                   -9.869
+data arrival time                                                                    26.689
+-------------------------------------------------------------------------------------------
+slack (MET)                                                                          16.820
+
+
+#Path 56
+Startpoint: counter_dffe_Q_4.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : out:counter(11).outpad[0] (.output clocked by clk)
+Path Type : hold
+
+Point                                                                                 Incr      Path
+----------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                0.000     0.000
+clock source latency                                                                 0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                             0.000     0.000
+counter_dffe_Q_4.QCK[0] (Q_FRAG)                                                     9.487     9.487
+counter_dffe_Q_4.QZ[0] (Q_FRAG) [clock-to-output]                                    1.393    10.880
+$iopadmap$helloworldfpga.counter_11.O_DAT[0] (BIDIR_CELL)                            5.109    15.989
+$iopadmap$helloworldfpga.counter_11.O_PAD_$out[0] (BIDIR_CELL)                       9.726    25.715
+out:counter(11).outpad[0] (.output)                                                  0.000    25.715
+data arrival time                                                                             25.715
+
+clock clk (rise edge)                                                                0.000     0.000
+clock source latency                                                                 0.000     0.000
+clock uncertainty                                                                    0.000     0.000
+output external delay                                                                0.000     0.000
+data required time                                                                             0.000
+----------------------------------------------------------------------------------------------------
+data required time                                                                            -0.000
+data arrival time                                                                             25.715
+----------------------------------------------------------------------------------------------------
+slack (MET)                                                                                   25.715
+
+
+#Path 57
+Startpoint: counter_dffe_Q_1.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : out:counter(14).outpad[0] (.output clocked by clk)
+Path Type : hold
+
+Point                                                                                 Incr      Path
+----------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                0.000     0.000
+clock source latency                                                                 0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                             0.000     0.000
+counter_dffe_Q_1.QCK[0] (Q_FRAG)                                                     9.491     9.491
+counter_dffe_Q_1.QZ[0] (Q_FRAG) [clock-to-output]                                    1.393    10.884
+$iopadmap$helloworldfpga.counter_14.O_DAT[0] (BIDIR_CELL)                            5.933    16.817
+$iopadmap$helloworldfpga.counter_14.O_PAD_$out[0] (BIDIR_CELL)                       9.726    26.543
+out:counter(14).outpad[0] (.output)                                                  0.000    26.543
+data arrival time                                                                             26.543
+
+clock clk (rise edge)                                                                0.000     0.000
+clock source latency                                                                 0.000     0.000
+clock uncertainty                                                                    0.000     0.000
+output external delay                                                                0.000     0.000
+data required time                                                                             0.000
+----------------------------------------------------------------------------------------------------
+data required time                                                                            -0.000
+data arrival time                                                                             26.543
+----------------------------------------------------------------------------------------------------
+slack (MET)                                                                                   26.543
+
+
+#Path 58
+Startpoint: counter_dffe_Q.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : out:counter(15).outpad[0] (.output clocked by clk)
+Path Type : hold
+
+Point                                                                                 Incr      Path
+----------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                0.000     0.000
+clock source latency                                                                 0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                             0.000     0.000
+counter_dffe_Q.QCK[0] (Q_FRAG)                                                      10.374    10.374
+counter_dffe_Q.QZ[0] (Q_FRAG) [clock-to-output]                                      1.393    11.767
+$iopadmap$helloworldfpga.counter_15.O_DAT[0] (BIDIR_CELL)                            6.342    18.109
+$iopadmap$helloworldfpga.counter_15.O_PAD_$out[0] (BIDIR_CELL)                       9.726    27.835
+out:counter(15).outpad[0] (.output)                                                  0.000    27.835
+data arrival time                                                                             27.835
+
+clock clk (rise edge)                                                                0.000     0.000
+clock source latency                                                                 0.000     0.000
+clock uncertainty                                                                    0.000     0.000
+output external delay                                                                0.000     0.000
+data required time                                                                             0.000
+----------------------------------------------------------------------------------------------------
+data required time                                                                            -0.000
+data arrival time                                                                             27.835
+----------------------------------------------------------------------------------------------------
+slack (MET)                                                                                   27.835
+
+
+#Path 59
+Startpoint: counter_dffe_Q_5.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : out:counter(10).outpad[0] (.output clocked by clk)
+Path Type : hold
+
+Point                                                                                 Incr      Path
+----------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                0.000     0.000
+clock source latency                                                                 0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                             0.000     0.000
+counter_dffe_Q_5.QCK[0] (Q_FRAG)                                                    10.321    10.321
+counter_dffe_Q_5.QZ[0] (Q_FRAG) [clock-to-output]                                    1.393    11.714
+$iopadmap$helloworldfpga.counter_10.O_DAT[0] (BIDIR_CELL)                            6.418    18.132
+$iopadmap$helloworldfpga.counter_10.O_PAD_$out[0] (BIDIR_CELL)                       9.726    27.858
+out:counter(10).outpad[0] (.output)                                                  0.000    27.858
+data arrival time                                                                             27.858
+
+clock clk (rise edge)                                                                0.000     0.000
+clock source latency                                                                 0.000     0.000
+clock uncertainty                                                                    0.000     0.000
+output external delay                                                                0.000     0.000
+data required time                                                                             0.000
+----------------------------------------------------------------------------------------------------
+data required time                                                                            -0.000
+data arrival time                                                                             27.858
+----------------------------------------------------------------------------------------------------
+slack (MET)                                                                                   27.858
+
+
+#Path 60
+Startpoint: counter_dffe_Q_3.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : out:counter(12).outpad[0] (.output clocked by clk)
+Path Type : hold
+
+Point                                                                                 Incr      Path
+----------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                0.000     0.000
+clock source latency                                                                 0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                             0.000     0.000
+counter_dffe_Q_3.QCK[0] (Q_FRAG)                                                    10.349    10.349
+counter_dffe_Q_3.QZ[0] (Q_FRAG) [clock-to-output]                                    1.393    11.741
+$iopadmap$helloworldfpga.counter_12.O_DAT[0] (BIDIR_CELL)                            6.467    18.208
+$iopadmap$helloworldfpga.counter_12.O_PAD_$out[0] (BIDIR_CELL)                       9.726    27.934
+out:counter(12).outpad[0] (.output)                                                  0.000    27.934
+data arrival time                                                                             27.934
+
+clock clk (rise edge)                                                                0.000     0.000
+clock source latency                                                                 0.000     0.000
+clock uncertainty                                                                    0.000     0.000
+output external delay                                                                0.000     0.000
+data required time                                                                             0.000
+----------------------------------------------------------------------------------------------------
+data required time                                                                            -0.000
+data arrival time                                                                             27.934
+----------------------------------------------------------------------------------------------------
+slack (MET)                                                                                   27.934
+
+
+#Path 61
+Startpoint: counter_dffe_Q_2.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : out:counter(13).outpad[0] (.output clocked by clk)
+Path Type : hold
+
+Point                                                                                 Incr      Path
+----------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                0.000     0.000
+clock source latency                                                                 0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                             0.000     0.000
+counter_dffe_Q_2.QCK[0] (Q_FRAG)                                                    10.263    10.263
+counter_dffe_Q_2.QZ[0] (Q_FRAG) [clock-to-output]                                    1.393    11.656
+$iopadmap$helloworldfpga.counter_13.O_DAT[0] (BIDIR_CELL)                            7.789    19.445
+$iopadmap$helloworldfpga.counter_13.O_PAD_$out[0] (BIDIR_CELL)                       9.726    29.171
+out:counter(13).outpad[0] (.output)                                                  0.000    29.171
+data arrival time                                                                             29.171
+
+clock clk (rise edge)                                                                0.000     0.000
+clock source latency                                                                 0.000     0.000
+clock uncertainty                                                                    0.000     0.000
+output external delay                                                                0.000     0.000
+data required time                                                                             0.000
+----------------------------------------------------------------------------------------------------
+data required time                                                                            -0.000
+data arrival time                                                                             29.171
+----------------------------------------------------------------------------------------------------
+slack (MET)                                                                                   29.171
+
+
+#Path 62
+Startpoint: counter_dffe_Q_14.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : out:counter(1).outpad[0] (.output clocked by clk)
+Path Type : hold
+
+Point                                                                                Incr      Path
+---------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                               0.000     0.000
+clock source latency                                                                0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                            0.000     0.000
+counter_dffe_Q_14.QCK[0] (Q_FRAG)                                                  12.267    12.267
+counter_dffe_Q_14.QZ[0] (Q_FRAG) [clock-to-output]                                  1.393    13.660
+$iopadmap$helloworldfpga.counter_1.O_DAT[0] (BIDIR_CELL)                            6.436    20.096
+$iopadmap$helloworldfpga.counter_1.O_PAD_$out[0] (BIDIR_CELL)                       9.726    29.822
+out:counter(1).outpad[0] (.output)                                                  0.000    29.822
+data arrival time                                                                            29.822
+
+clock clk (rise edge)                                                               0.000     0.000
+clock source latency                                                                0.000     0.000
+clock uncertainty                                                                   0.000     0.000
+output external delay                                                               0.000     0.000
+data required time                                                                            0.000
+---------------------------------------------------------------------------------------------------
+data required time                                                                           -0.000
+data arrival time                                                                            29.822
+---------------------------------------------------------------------------------------------------
+slack (MET)                                                                                  29.822
+
+
+#Path 63
+Startpoint: counter_dffe_Q_9.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : out:counter(6).outpad[0] (.output clocked by clk)
+Path Type : hold
+
+Point                                                                                Incr      Path
+---------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                               0.000     0.000
+clock source latency                                                                0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                            0.000     0.000
+counter_dffe_Q_9.QCK[0] (Q_FRAG)                                                   12.209    12.209
+counter_dffe_Q_9.QZ[0] (Q_FRAG) [clock-to-output]                                   1.393    13.602
+$iopadmap$helloworldfpga.counter_6.O_DAT[0] (BIDIR_CELL)                            6.950    20.552
+$iopadmap$helloworldfpga.counter_6.O_PAD_$out[0] (BIDIR_CELL)                       9.726    30.278
+out:counter(6).outpad[0] (.output)                                                  0.000    30.278
+data arrival time                                                                            30.278
+
+clock clk (rise edge)                                                               0.000     0.000
+clock source latency                                                                0.000     0.000
+clock uncertainty                                                                   0.000     0.000
+output external delay                                                               0.000     0.000
+data required time                                                                            0.000
+---------------------------------------------------------------------------------------------------
+data required time                                                                           -0.000
+data arrival time                                                                            30.278
+---------------------------------------------------------------------------------------------------
+slack (MET)                                                                                  30.278
+
+
+#Path 64
+Startpoint: counter_dffe_Q_15.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : out:counter(0).outpad[0] (.output clocked by clk)
+Path Type : hold
+
+Point                                                                              Incr      Path
+-------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                             0.000     0.000
+clock source latency                                                              0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                          0.000     0.000
+counter_dffe_Q_15.QCK[0] (Q_FRAG)                                                10.633    10.633
+counter_dffe_Q_15.QZ[0] (Q_FRAG) [clock-to-output]                                1.393    12.026
+$iopadmap$helloworldfpga.counter.O_DAT[0] (BIDIR_CELL)                            8.618    20.644
+$iopadmap$helloworldfpga.counter.O_PAD_$out[0] (BIDIR_CELL)                       9.726    30.370
+out:counter(0).outpad[0] (.output)                                                0.000    30.370
+data arrival time                                                                          30.370
+
+clock clk (rise edge)                                                             0.000     0.000
+clock source latency                                                              0.000     0.000
+clock uncertainty                                                                 0.000     0.000
+output external delay                                                             0.000     0.000
+data required time                                                                          0.000
+-------------------------------------------------------------------------------------------------
+data required time                                                                         -0.000
+data arrival time                                                                          30.370
+-------------------------------------------------------------------------------------------------
+slack (MET)                                                                                30.370
+
+
+#Path 65
+Startpoint: counter_dffe_Q_10.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : out:counter(5).outpad[0] (.output clocked by clk)
+Path Type : hold
+
+Point                                                                                Incr      Path
+---------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                               0.000     0.000
+clock source latency                                                                0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                            0.000     0.000
+counter_dffe_Q_10.QCK[0] (Q_FRAG)                                                  13.106    13.106
+counter_dffe_Q_10.QZ[0] (Q_FRAG) [clock-to-output]                                  1.393    14.499
+$iopadmap$helloworldfpga.counter_5.O_DAT[0] (BIDIR_CELL)                            6.599    21.098
+$iopadmap$helloworldfpga.counter_5.O_PAD_$out[0] (BIDIR_CELL)                       9.726    30.824
+out:counter(5).outpad[0] (.output)                                                  0.000    30.824
+data arrival time                                                                            30.824
+
+clock clk (rise edge)                                                               0.000     0.000
+clock source latency                                                                0.000     0.000
+clock uncertainty                                                                   0.000     0.000
+output external delay                                                               0.000     0.000
+data required time                                                                            0.000
+---------------------------------------------------------------------------------------------------
+data required time                                                                           -0.000
+data arrival time                                                                            30.824
+---------------------------------------------------------------------------------------------------
+slack (MET)                                                                                  30.824
+
+
+#Path 66
+Startpoint: led_dffe_Q.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : out:redled.outpad[0] (.output clocked by clk)
+Path Type : hold
+
+Point                                                                             Incr      Path
+------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                            0.000     0.000
+clock source latency                                                             0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                         0.000     0.000
+led_dffe_Q.QCK[0] (Q_FRAG)                                                      11.386    11.386
+led_dffe_Q.QZ[0] (Q_FRAG) [clock-to-output]                                      1.393    12.778
+$iopadmap$helloworldfpga.redled.O_DAT[0] (BIDIR_CELL)                            8.458    21.236
+$iopadmap$helloworldfpga.redled.O_PAD_$out[0] (BIDIR_CELL)                       9.726    30.962
+out:redled.outpad[0] (.output)                                                   0.000    30.962
+data arrival time                                                                         30.962
+
+clock clk (rise edge)                                                            0.000     0.000
+clock source latency                                                             0.000     0.000
+clock uncertainty                                                                0.000     0.000
+output external delay                                                            0.000     0.000
+data required time                                                                         0.000
+------------------------------------------------------------------------------------------------
+data required time                                                                        -0.000
+data arrival time                                                                         30.962
+------------------------------------------------------------------------------------------------
+slack (MET)                                                                               30.962
+
+
+#Path 67
+Startpoint: counter_dffe_Q_6.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : out:counter(9).outpad[0] (.output clocked by clk)
+Path Type : hold
+
+Point                                                                                Incr      Path
+---------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                               0.000     0.000
+clock source latency                                                                0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                            0.000     0.000
+counter_dffe_Q_6.QCK[0] (Q_FRAG)                                                   11.282    11.282
+counter_dffe_Q_6.QZ[0] (Q_FRAG) [clock-to-output]                                   1.393    12.675
+$iopadmap$helloworldfpga.counter_9.O_DAT[0] (BIDIR_CELL)                            8.600    21.275
+$iopadmap$helloworldfpga.counter_9.O_PAD_$out[0] (BIDIR_CELL)                       9.726    31.001
+out:counter(9).outpad[0] (.output)                                                  0.000    31.001
+data arrival time                                                                            31.001
+
+clock clk (rise edge)                                                               0.000     0.000
+clock source latency                                                                0.000     0.000
+clock uncertainty                                                                   0.000     0.000
+output external delay                                                               0.000     0.000
+data required time                                                                            0.000
+---------------------------------------------------------------------------------------------------
+data required time                                                                           -0.000
+data arrival time                                                                            31.001
+---------------------------------------------------------------------------------------------------
+slack (MET)                                                                                  31.001
+
+
+#Path 68
+Startpoint: counter_dffe_Q_7.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : out:counter(8).outpad[0] (.output clocked by clk)
+Path Type : hold
+
+Point                                                                                Incr      Path
+---------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                               0.000     0.000
+clock source latency                                                                0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                            0.000     0.000
+counter_dffe_Q_7.QCK[0] (Q_FRAG)                                                   11.370    11.370
+counter_dffe_Q_7.QZ[0] (Q_FRAG) [clock-to-output]                                   1.393    12.763
+$iopadmap$helloworldfpga.counter_8.O_DAT[0] (BIDIR_CELL)                            9.184    21.947
+$iopadmap$helloworldfpga.counter_8.O_PAD_$out[0] (BIDIR_CELL)                       9.726    31.673
+out:counter(8).outpad[0] (.output)                                                  0.000    31.673
+data arrival time                                                                            31.673
+
+clock clk (rise edge)                                                               0.000     0.000
+clock source latency                                                                0.000     0.000
+clock uncertainty                                                                   0.000     0.000
+output external delay                                                               0.000     0.000
+data required time                                                                            0.000
+---------------------------------------------------------------------------------------------------
+data required time                                                                           -0.000
+data arrival time                                                                            31.673
+---------------------------------------------------------------------------------------------------
+slack (MET)                                                                                  31.673
+
+
+#Path 69
+Startpoint: counter_dffe_Q_11.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : out:counter(4).outpad[0] (.output clocked by clk)
+Path Type : hold
+
+Point                                                                                Incr      Path
+---------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                               0.000     0.000
+clock source latency                                                                0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                            0.000     0.000
+counter_dffe_Q_11.QCK[0] (Q_FRAG)                                                  13.930    13.930
+counter_dffe_Q_11.QZ[0] (Q_FRAG) [clock-to-output]                                  1.393    15.323
+$iopadmap$helloworldfpga.counter_4.O_DAT[0] (BIDIR_CELL)                            6.950    22.273
+$iopadmap$helloworldfpga.counter_4.O_PAD_$out[0] (BIDIR_CELL)                       9.726    31.999
+out:counter(4).outpad[0] (.output)                                                  0.000    31.999
+data arrival time                                                                            31.999
+
+clock clk (rise edge)                                                               0.000     0.000
+clock source latency                                                                0.000     0.000
+clock uncertainty                                                                   0.000     0.000
+output external delay                                                               0.000     0.000
+data required time                                                                            0.000
+---------------------------------------------------------------------------------------------------
+data required time                                                                           -0.000
+data arrival time                                                                            31.999
+---------------------------------------------------------------------------------------------------
+slack (MET)                                                                                  31.999
+
+
+#Path 70
+Startpoint: counter_dffe_Q_8.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : out:counter(7).outpad[0] (.output clocked by clk)
+Path Type : hold
+
+Point                                                                                Incr      Path
+---------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                               0.000     0.000
+clock source latency                                                                0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                            0.000     0.000
+counter_dffe_Q_8.QCK[0] (Q_FRAG)                                                   12.246    12.246
+counter_dffe_Q_8.QZ[0] (Q_FRAG) [clock-to-output]                                   1.393    13.639
+$iopadmap$helloworldfpga.counter_7.O_DAT[0] (BIDIR_CELL)                            8.656    22.294
+$iopadmap$helloworldfpga.counter_7.O_PAD_$out[0] (BIDIR_CELL)                       9.726    32.020
+out:counter(7).outpad[0] (.output)                                                  0.000    32.020
+data arrival time                                                                            32.020
+
+clock clk (rise edge)                                                               0.000     0.000
+clock source latency                                                                0.000     0.000
+clock uncertainty                                                                   0.000     0.000
+output external delay                                                               0.000     0.000
+data required time                                                                            0.000
+---------------------------------------------------------------------------------------------------
+data required time                                                                           -0.000
+data arrival time                                                                            32.020
+---------------------------------------------------------------------------------------------------
+slack (MET)                                                                                  32.020
+
+
+#Path 71
+Startpoint: counter_dffe_Q_13.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : out:counter(2).outpad[0] (.output clocked by clk)
+Path Type : hold
+
+Point                                                                                Incr      Path
+---------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                               0.000     0.000
+clock source latency                                                                0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                            0.000     0.000
+counter_dffe_Q_13.QCK[0] (Q_FRAG)                                                  12.203    12.203
+counter_dffe_Q_13.QZ[0] (Q_FRAG) [clock-to-output]                                  1.393    13.596
+$iopadmap$helloworldfpga.counter_2.O_DAT[0] (BIDIR_CELL)                            8.738    22.334
+$iopadmap$helloworldfpga.counter_2.O_PAD_$out[0] (BIDIR_CELL)                       9.726    32.060
+out:counter(2).outpad[0] (.output)                                                  0.000    32.060
+data arrival time                                                                            32.060
+
+clock clk (rise edge)                                                               0.000     0.000
+clock source latency                                                                0.000     0.000
+clock uncertainty                                                                   0.000     0.000
+output external delay                                                               0.000     0.000
+data required time                                                                            0.000
+---------------------------------------------------------------------------------------------------
+data required time                                                                           -0.000
+data arrival time                                                                            32.060
+---------------------------------------------------------------------------------------------------
+slack (MET)                                                                                  32.060
+
+
+#Path 72
+Startpoint: counter_dffe_Q_12.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : out:counter(3).outpad[0] (.output clocked by clk)
+Path Type : hold
+
+Point                                                                                Incr      Path
+---------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                               0.000     0.000
+clock source latency                                                                0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                            0.000     0.000
+counter_dffe_Q_12.QCK[0] (Q_FRAG)                                                  13.083    13.083
+counter_dffe_Q_12.QZ[0] (Q_FRAG) [clock-to-output]                                  1.393    14.476
+$iopadmap$helloworldfpga.counter_3.O_DAT[0] (BIDIR_CELL)                            8.306    22.781
+$iopadmap$helloworldfpga.counter_3.O_PAD_$out[0] (BIDIR_CELL)                       9.726    32.507
+out:counter(3).outpad[0] (.output)                                                  0.000    32.507
+data arrival time                                                                            32.507
+
+clock clk (rise edge)                                                               0.000     0.000
+clock source latency                                                                0.000     0.000
+clock uncertainty                                                                   0.000     0.000
+output external delay                                                               0.000     0.000
+data required time                                                                            0.000
+---------------------------------------------------------------------------------------------------
+data required time                                                                           -0.000
+data arrival time                                                                            32.507
+---------------------------------------------------------------------------------------------------
+slack (MET)                                                                                  32.507
+
+
+#End of timing report
